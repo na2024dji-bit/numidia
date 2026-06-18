@@ -122,17 +122,17 @@ const PRODUCTS = [
 
 اختر الأناقة الكلاسيكية مع سوار معدني، أو اختر إطلالة أكثر عصرية .`,
     specs: [
-      { label: "المادة الخارجية", value: "قماش شبكي مع جلد صناعي" },
-      { label: "النعل", value: "مطاط مرن مضاد للانزلاق" },
-      { label: "الوزن", value: "≈ 320 جرام للقطعة الواحدة" },
-      { label: "بلد الصنع", value: "صنع في تركيا" },
-      { label: "العناية", value: "تنظيف بقطعة قماش رطبة، عدم الغسل بالغسالة" },
-      { label: "الضمان", value: "3 أشهر ضد عيوب التصنيع" },
+      { label: "Band", value: "Stainless Steel BandTriple-fold Clasp" },
+      { label: "Weight", value: "93 g" },
+      { label: "Water resistance", value: "Water Resistant" },
+      { label: "battery life", value: "1 years" },
+      { label: "Glass", value: "Mineral Glass" },
     ],
     gallery: [
-      "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500&q=80",
-      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500&q=80",
-      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&q=80",
+      "/download (1).jpeg",
+      "/download (2).jpeg",
+      "/download.jpeg",
+       "/images.jpeg",
     ],
     videoUrl: "", // ضع رابط فيديو عرض المنتج هنا
     reviews: [
