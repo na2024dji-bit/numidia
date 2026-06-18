@@ -102,7 +102,7 @@ const PRODUCTS = [
     price: 4500,
     oldPrice: 6000,
     // الصورة الأولى تُستخدم في بطاقة المنتج والـ thumbnail
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
+    image : "/mtp2.avif",
     // أضف صورك هنا — الصورة الأولى هي الرئيسية
     images: [
       "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
@@ -357,7 +357,7 @@ export default function App() {
 // ============================================================
 function HomePage({ products, onSelect, isMobile }) {
   // ── لتغيير الفيديو: ضع رابط MP4 هنا ──────────────────────
-  const VIDEO_SRC = ""; // مثال: "https://example.com/casio-mtp-v002.mp4"
+  const VIDEO_SRC = "/ner.mp4"; // مثال: "https://example.com/casio-mtp-v002.mp4"
   // ──────────────────────────────────────────────────────────
 
   return (
