@@ -7,10 +7,10 @@ const CONFIG = {
   GOOGLE_SHEET_ORDERS_URL: "https://script.google.com/macros/s/AKfycbzRYvNtrS3W_T75jfb5N1oqn6JeDbWEKIM2vKDftYfTsU563-v-NQzM7u5eYhWnZu3F/exec",
   FB_PIXEL_ID: "YOUR_FB_PIXEL_ID",
   TIKTOK_PIXEL_ID: "YOUR_TIKTOK_PIXEL_ID",
-  STORE_NAME: "متجر الجزائر",
+  STORE_NAME: "Numidia Algerie",
   CURRENCY: "دج",
   DELIVERY_PRICE: 600,
-  FREE_DELIVERY_THRESHOLD: 5000,
+  FREE_DELIVERY_THRESHOLD: 10000,
 };
 
 // ============================================================
