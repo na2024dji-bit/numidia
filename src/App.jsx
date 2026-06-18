@@ -98,89 +98,47 @@ const ALGERIA_WILAYAS = [
 const PRODUCTS = [
   {
     id: 1,
-    name: "CASIO MTP-V002D-1B3",
-    price: 5300,
-    oldPrice: 6100,
+    name: "حذاء رياضي فاخر",
+    price: 4500,
+    oldPrice: 6000,
     // الصورة الأولى تُستخدم في بطاقة المنتج والـ thumbnail
-    image : "/mtp2.avif",
+    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
     // أضف صورك هنا — الصورة الأولى هي الرئيسية
     images: [
-      "/MTP_LTP_V002D_1B3.jpg",
-      "/61dIMKm80NL._AC_SY500_.jpg",
-      "/images.jpeg",
-      "/br-m036969-00602_jam-tangan-couple-casio-mtp-v002d-1b3udf-x-ltp-v002d-1b3udf_full02-f3f6bd82.webp",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=800&q=80",
+      "https://images.unsplash.com/photo-1608231387042-66d1773d3028?w=800&q=80",
+      "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=800&q=80",
     ],
     badge: "الأكثر مبيعاً",
-    description: "ساعة جميلة و  مريح وعصرية مناسب لجميع المناسبات",
+    description: "حذاء رياضي مريح وعصري مناسب لجميع المناسبات",
     variants: ["أبيض", "أسود", "رمادي"],
-   
+    sizes: ["40", "41", "42", "43", "44", "45"],
     // ── معلومات إضافية لتبويبات صفحة المنتج ──────────────────
     longDescription:
-`تألق بأناقة في العمل أو أوقات فراغك مع مجموعة ساعات كاسيو  MTP-V002.
+`صُمم هذا الحذاء الرياضي ليمنحك راحة فائقة طوال اليوم، بفضل نعله المرن الممتص للصدمات وتهويته الداخلية التي تحافظ على جفاف القدم.
 
-بفضل نافذة التاريخ العملية عند موضع الساعة الثالثة، والأرقام الرومانية الكلاسيكية ومؤشرات الساعات التي تُسهّل قراءة الوقت، ستكون دائمًا في المكان المناسب. تتميز هذه الساعات الأنيقة والمتعددة الاستخدامات بمقاومتها للماء، مما يجعلها مثالية للاستخدام اليومي، فلا داعي للقلق عند الخروج تحت المطر أو أثناء غسل الأطباق.
+يتميز بتصميم عصري يناسب الإطلالات اليومية والرياضية على حدٍ سواء، مع خياطة متينة تضمن عمراً أطول للاستخدام.
 
-اختر الأناقة الكلاسيكية مع سوار معدني، أو اختر إطلالة أكثر عصرية .`,
+مثالي للمشي، الجري الخفيف، أو الاستخدام اليومي في الجامعة أو العمل.`,
     specs: [
-      { label: "Band", value: "Stainless Steel BandTriple-fold Clasp" },
-      { label: "Weight", value: "93 g" },
-      { label: "Water resistance", value: "Water Resistant" },
-      { label: "battery life", value: "1 years" },
-      { label: "Glass", value: "Mineral Glass" },
+      { label: "المادة الخارجية", value: "قماش شبكي مع جلد صناعي" },
+      { label: "النعل", value: "مطاط مرن مضاد للانزلاق" },
+      { label: "الوزن", value: "≈ 320 جرام للقطعة الواحدة" },
+      { label: "بلد الصنع", value: "صنع في تركيا" },
+      { label: "العناية", value: "تنظيف بقطعة قماش رطبة، عدم الغسل بالغسالة" },
+      { label: "الضمان", value: "3 أشهر ضد عيوب التصنيع" },
     ],
     gallery: [
-      "/MTP_LTP_V002D_1B3.jpg",
-      "/images.jpeg",
-      "/br-m036969-00602_jam-tangan-couple-casio-mtp-v002d-1b3udf-x-ltp-v002d-1b3udf_full02-f3f6bd82.webp",
-      
+      "https://images.unsplash.com/photo-1556906781-9a412961c28c?w=500&q=80",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500&q=80",
+      "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&q=80",
     ],
     videoUrl: "", // ضع رابط فيديو عرض المنتج هنا
     reviews: [
       { name: "يوسف ب.", rating: 5, date: "2026/01/12", comment: "جودة ممتازة والمقاس دقيق جداً، التوصيل كان سريعاً لولاية وهران. أنصح به بشدة." },
-      { name: "حفيظ م.", rating: 4, date: "2026/01/08", comment: " مريح جداً للاستخدام اليومي، ." },
+      { name: "سارة م.", rating: 4, date: "2026/01/08", comment: "حذاء مريح جداً للاستخدام اليومي، لكن اللون أخف قليلاً من الصورة المعروضة." },
       { name: "كريم ز.", rating: 5, date: "2025/12/29", comment: "اشتريته كهدية والمستلم سعيد جداً به. التغليف كان أنيقاً أيضاً." },
-    ],
-  },
-  {
-    id: 2,
-    name: "ساعة ذكية Pro",
-    price: 8900,
-    oldPrice: 12000,
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
-      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80",
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800&q=80",
-      "https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=800&q=80",
-    ],
-    badge: "جديد",
-    description: "ساعة ذكية بمواصفات عالية ومتعددة الوظائف",
-    variants: ["أسود", "فضي", "ذهبي"],
-    sizes: [],
-    longDescription:
-`ساعة ذكية متطورة بشاشة AMOLED لمسية عالية الدقة، تجمع بين الأنيقة والوظائف الذكية في تصميم واحد.
-
-تتيح لك متابعة معدل ضربات القلب، مستوى الأكسجين، عدد الخطوات، وجودة النوم على مدار اليوم، مع إشعارات فورية للمكالمات والرسائل من هاتفك.
-
-بطارية تدوم حتى 7 أيام مع استخدام عادي، ومقاومة كاملة للماء والغبار IP68 — تناسب جميع الأنشطة اليومية والرياضية.`,
-    specs: [
-      { label: "الشاشة", value: "1.85 إنش AMOLED لمسية" },
-      { label: "البطارية", value: "تدوم حتى 7 أيام" },
-      { label: "مقاومة الماء والغبار", value: "IP68" },
-      { label: "الاتصال", value: "Bluetooth 5.0" },
-      { label: "التوافق", value: "Android و iOS" },
-      { label: "المستشعرات", value: "نبض القلب، الأكسجين، النوم، الخطوات" },
-    ],
-    gallery: [
-      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&q=80",
-      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=500&q=80",
-      "https://images.unsplash.com/photo-1617043786394-f977fa12eddf?w=500&q=80",
-    ],
-    videoUrl: "", // ضع رابط فيديو عرض الساعة هنا
-    reviews: [
-      { name: "أمين ت.", rating: 5, date: "2026/02/02", comment: "الساعة رائعة والشاشة واضحة جداً حتى تحت الشمس. البطارية تدوم تقريباً 6 أيام." },
-      { name: "نور الهدى ع.", rating: 5, date: "2026/01/20", comment: "تطبيق المزامنة سهل والإشعارات تأتي فوراً. تستحق السعر بالكامل." },
-      { name: "بلال س.", rating: 4, date: "2026/01/05", comment: "ساعة جيدة جداً، فقط قياس الأكسجين يحتاج بعض الوقت ليكون دقيقاً." },
     ],
   },
   {
