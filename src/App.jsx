@@ -129,9 +129,9 @@ const PRODUCTS = [
       { label: "Glass", value: "Mineral Glass" },
     ],
     gallery: [
-      "/download (1).jpeg",
-      "/download (2).jpeg",
-      "/download.jpeg",
+      "/MTP_LTP_V002D_1B3.jpg",
+      "/images.jpeg",
+      "/br-m036969-00602_jam-tangan-couple-casio-mtp-v002d-1b3udf-x-ltp-v002d-1b3udf_full02-f3f6bd82.webp",
       
     ],
     videoUrl: "", // ضع رابط فيديو عرض المنتج هنا
