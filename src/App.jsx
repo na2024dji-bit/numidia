@@ -132,7 +132,7 @@ const PRODUCTS = [
       "/download (1).jpeg",
       "/download (2).jpeg",
       "/download.jpeg",
-       "/images.jpeg",
+      
     ],
     videoUrl: "", // ضع رابط فيديو عرض المنتج هنا
     reviews: [
