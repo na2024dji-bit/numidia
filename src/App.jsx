@@ -105,7 +105,7 @@ const PRODUCTS = [
     image : "/mtp2.avif",
     // أضف صورك هنا — الصورة الأولى هي الرئيسية
     images: [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+      "/MTP_LTP_V002D_1B3.jpg",
       "https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=800&q=80",
       "https://images.unsplash.com/photo-1608231387042-66d1773d3028?w=800&q=80",
       "https://images.unsplash.com/photo-1595341888016-a392ef81b7de?w=800&q=80",
